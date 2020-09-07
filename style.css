@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #282828;
+}
+
+.drumkit{
+    display: flex;
+    height: 100vh;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.pad1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px);
+    background: linear-gradient(#e18274, #d15746);
+    border-radius: 10px;
+
+}
+
+.pad1:hover{
+    background: red;
+}
+.pad2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px);
+    background: linear-gradient(#e18274, #d15746);
+    border-radius: 10px;
+
+}
+
+.pad2:hover{
+    background:blue;
+}
+
+.pad3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px);
+    background: linear-gradient(#e18274, #d15746);
+    border-radius: 10px;
+
+}
+
+.pad3:hover{
+    background:yellow;
+}
+
+.pad4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px);
+    background: linear-gradient(#e18274, #d15746);
+    border-radius: 10px;
+
+}
+
+.pad4:hover{
+    background: greenyellow;
+}
+
+.pad5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px);
+    background: linear-gradient(#e18274, #d15746);
+    border-radius: 10px;
+
+}
+
+.pad5:hover{
+    background: rgb(47, 241, 255);
+}
+
+.pad6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex: 1 0 calc(33.333% - 20px);
+    background: linear-gradient(#e18274, #d15746);
+    border-radius: 10px;
+   
+
+}
+
+.pad6:hover{
+    background: rgb(106, 255, 47);
+}
